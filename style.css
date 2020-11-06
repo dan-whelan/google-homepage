@@ -1,0 +1,74 @@
+html {
+    font-family: Arial, sans-serif !important;
+    font-size: 1em;
+}
+#navigationBar {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 90px;
+    grid-template-rows: auto;
+    grid-template-areas: "gmail images squares sign-in";
+    font-size: 13px;
+    padding-top: 10px;
+    padding-right: 10px;
+    justify-content: right;
+}
+#gmail{
+    grid-area: gmail;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+}
+#gmail:hover {
+    text-decoration: underline;
+    opacity: 0.85;
+}
+#images {
+    grid-area: images;
+    justify-self: center;
+    align-self: center;
+    text-decoration: none;
+}
+#images:hover {
+    text-decoration: underline;
+    opacity: 0.85;
+}
+#squares {
+    grid-area: squares;
+    justify-self: center;
+    align-self: center;
+}
+#sign-in {
+    grid-area: sign-in;
+    justify-self: center;
+    align-self: center;
+    background-color: #4387fd;
+    height: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5%;
+    border: none;
+    width: 70px;
+}
+#sign-in:focus{
+    outline:none;
+}
+#squares {
+    width: 30px;
+    height: 30px;
+}
+.navBar {
+    color: rgba(0,0,0,0.87)
+}
+#searchArea {
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows: 300px 70px 70px 300px;
+    grid-template-areas: "googleLogo"
+                         "searchBar"
+                         "buttons"
+                         "languageLink";
+    justify-content: center;
+}
+#googleLogo {
+    max-width: 20em;
+}

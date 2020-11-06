@@ -1,2 +1,2 @@
 # google-homepage
-HTML/CSS project
+# Initial project while working through odin-project courses
