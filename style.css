@@ -89,10 +89,28 @@ html {
     border: 1px solid #cccccc;
     border-radius: 24px;
     padding-left: 50px;
-    background-image: url('magnifying.png');
+    background-image: url('Images/magnifying.png');
     background-size: 20px;
     background-position: 10px;
     background-repeat: no-repeat;
+}
+#searchBar:hover {
+    cursor: text;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+}
+#searchBar:hover::placeholder {
+    color: transparent;
+}
+#searchBar:focus {
+    cursor: text;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+    border: 1px solid #c6c6c6;
+}
+#searchBar:focus::placeholder {
+    color: transparent;
 }
 #buttons {
     grid-area: buttons;
@@ -104,7 +122,7 @@ html {
     border: 1px solid #f2f2f2;
     width: 130px;
     height: 36px;
-    border-radius: 5%;
+    border-radius: 4px;
     color: #777777;
 }
 #search-fl:hover {
@@ -114,11 +132,15 @@ html {
     box-shadow: 0 1px 1px rgba(0,0,0,0.1);
     border: 1px solid #c6c6c6
 }
-#search-fl:focus {
-    outline: none;
-}
 #languageLink {
     grid-area: languageLink;
     justify-self: center;
     align-self: start;
+}
+#language {
+    text-decoration: none;
+    color: #1a0dab;
+}
+#language:hover {
+    text-decoration: underline;
 }
