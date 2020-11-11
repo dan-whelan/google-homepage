@@ -144,3 +144,34 @@ html {
 #language:hover {
     text-decoration: underline;
 }
+#allFooters {
+    background-color: #f2f2f2;
+    line-height: 40px;
+    margin-left: -27px;
+    margin-right: -27px;
+    bottom: 0;
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+#footer1 {
+    color: #777777;
+    padding-left: 30px;
+    border-bottom: 1px solid #e4e4e4;
+}
+#leftFooter {
+    text-decoration: none;
+    color: #777777;
+    padding-left: 30px;
+}
+#leftFooter:hover {
+    text-decoration: underline;
+}
+#rightFooter {
+    text-decoration: none;
+    color: #777777;
+    padding-right: 30px;
+}
+#rightFooter:hover {
+    text-decoration: underline;
+}
