@@ -157,7 +157,11 @@ html {
 #footer1 {
     color: #777777;
     padding-left: 30px;
+    margin-left: 25px;
     border-bottom: 1px solid #e4e4e4;
+}
+#left {
+    float: left;
 }
 #leftFooter {
     text-decoration: none;
@@ -167,6 +171,12 @@ html {
 #leftFooter:hover {
     text-decoration: underline;
 }
+.advertising {
+    margin-left: 25px;
+}
+#right {
+    float: right;
+}
 #rightFooter {
     text-decoration: none;
     color: #777777;
@@ -174,4 +184,7 @@ html {
 }
 #rightFooter:hover {
     text-decoration: underline;
+}
+.settings {
+    margin-right: 25px;
 }
